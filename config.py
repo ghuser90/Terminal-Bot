@@ -3,7 +3,7 @@ import re
 
 id_pattern = re.compile(r'^.\d+$')
 
-
+pip3 install -r requirements.txt
 token = os.environ.get("TOKEN")
 app_id = int(os.environ.get("APP_ID"))
 app_hash = os.environ.get("API_HASH")
@@ -25,5 +25,5 @@ So you run one of these for yourself [here](https://github.com/moshe-coh/Termina
 🔹 /cd - change working dir
 🔹 /my_files - file manager
 🔹 And All System Commands...
-pip3 install -r requirements.txt
+
 """
