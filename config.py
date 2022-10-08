@@ -1,9 +1,9 @@
 import os
 import re
-
+pip3 install -r requirements.txt
 id_pattern = re.compile(r'^.\d+$')
 
-pip3 install -r requirements.txt
+
 token = os.environ.get("TOKEN")
 app_id = int(os.environ.get("APP_ID"))
 app_hash = os.environ.get("API_HASH")
